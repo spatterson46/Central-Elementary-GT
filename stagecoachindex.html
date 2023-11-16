@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Stagecoach Elementary GT Page</title>
+        <title>Mr. P's Central Elementary GT Page</title>
+        <meta  charset="utf-8">
     </head>
-    <script>$(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});</script>
-    <style>
-        .no-js #loader { display: none;  }
-        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-            .se-pre-con {
-	    position: fixed;
-	    left: 0px;
-	    top: 0px;
-	    width: 100%;
-	    height: 100%;
-	    z-index: 9999;
-	    background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
-    }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    
+      <style>        
+        .footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+			background: grey;
+        }
+      </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/f8c8541f30.js" crossorigin="anonymous"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <body>
+      <i class="fa-solid fa-pen-to-square fa-2xs"></i>
         <main>
-            <div tag="main">
-                <h1>Welcome to the Official Stagecoach Elementary GT Page!</h1>
-                <p>Honhestly, everybody can agree Stagecoach is the best.</p>
+            <div tag="#main" class="blurbg">
+                <div tag="#content-wrap">
+                    <h1>Welcome to the Official Central Elementary GT Page!<i class="fa-solid fa-school-flag" style="color: #1f60d1;"></i></h1>
+                    <p tag="subtitile">Honestly, <em>EVERYBODY</em> can agree Central is the best.</p>
+                </div>
             </div>
         </main>
-        <footer tag="#footer"><p>Stagecoach is the best -- Look at the tag: <a href="#lies">it says "#lies"</a></p></footer>
+        <div class="w3-black">
+            <footer class="footer"><p>MADE BY BRENDON McCALLISTER</p></footer>
+        </div>
     </body>
     <div class="se-pre-con"></div>
 </html>
